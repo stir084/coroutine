@@ -27,6 +27,9 @@ dependencies {
 	implementation("com.squareup.okhttp3:okhttp:4.9.1")
 	implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
 
+	implementation("org.springframework.boot:spring-boot-starter-webflux")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.5.0") // webflux와 같이 쓰기 위해 필요
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
